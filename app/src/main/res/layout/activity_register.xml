@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="40dp"
+    android:textAlignment="textStart"
+    tools:context=".MainActivity"
+    android:background="@drawable/pp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="#EC3131"
+        android:textSelectHandle="@android:drawable/alert_dark_frame"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="@string/fullanme"
+        android:inputType="textPersonName"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="@string/npass"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn"
+        android:text="@string/register" />
+
+
+</LinearLayout>

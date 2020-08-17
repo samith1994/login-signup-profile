@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">The buger bump</string>
+    <string name="register">Register</string>
+    <string name="fullanme">Fullname:</string>
+    <string name="username">Username:</string>
+
+    <string name="password">Password</string>
+    <string name="npass">confirm password</string>
+
+    <string name="profile">your profile</string>
+    <string name="name">Name</string>
+    <string name="sami">samith</string>
+    <string name="address">Address</string>
+    <string name="address2">No/141 walasmulla ,road ,weeraketiya</string>
+    <string name="pnum">Phone num</string>
+    <string name="phonenum">0302223</string>
+    <string name="email">Email</string>
+    <string name="email1">kbdj@gmail.com</string>
+    <string name="edit">Edit</string>
+    <string name="save">save</string>
+
+    <string name="buger">The Buger Bump</string>
+
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="new_account">Create an account</string>
+    <string name="signup">Signup</string>
+</resources>

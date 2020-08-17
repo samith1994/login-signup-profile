@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/ww">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F0F0"
+        android:gravity="center"
+        android:text="@string/buger"
+        android:textColor="#E83838"
+        android:textSize="24sp"
+        tools:text="@string/buger" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:text="@string/username"
+        android:textColor="#F4EFEF"
+        android:textColorHighlight="#EA2525"
+        tools:text="@string/username"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPersonName"
+        android:text="@string/pass"
+        android:textColor="#F1EBEB"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="@string/login"
+
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/new_account"
+
+        android:textColor="#EF0E0E"
+        android:textSize="18sp"
+        tools:text="@string/new_account" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:background="@drawable/btn"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
